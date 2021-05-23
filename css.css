@@ -35,7 +35,7 @@ background-position: top right;
 width: 580px;
 background: #fff url("images/sidebar.gif") repeat-y;
 background-position: 0 0;
-border: solid 10px #fff;
+border: solid 16px #fff;
 margin: 0 auto;
 text-align: left;
 }
@@ -75,6 +75,7 @@ z-index: 2;
 border-right: 1px solid #fff;
 height: 210px;
 width: 150px;
+<!-- center border -->
 }
 
 #nav li a {
@@ -82,7 +83,7 @@ color: #fff;
 font: normal 11px/24px verdana, arial, tahoma, sans-serif;
 display: block;
 width: 140px;
-height: 24px;
+height: 32px;
 background-color: #000;
 border-bottom: 1px solid #fff;
 padding-left: 10px;
@@ -104,7 +105,7 @@ width: 132px;
 background-color: #ccc;
 float: left;
 position: relative;
-left: -1px;
+left: -3px;
 margin-left: -147px;
 border-top: 1px solid #fff;
 font: normal 10px/18px verdana, arial, tahoma, sans-serif;
@@ -117,7 +118,7 @@ border: none;
 
 a img {
 display: block;
-margin-bottom: 20px;
+margin-bottom: 380px;
 border: 1px solid #fff;
 }
 
@@ -128,7 +129,7 @@ border-color: #f00;
 #content {
 float: left;
 width: 400px;
-margin: 10px 0 0 10px;
+margin: 40px 0 0 10px;
 }
 
 p {
