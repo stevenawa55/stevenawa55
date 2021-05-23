@@ -1,0 +1,146 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background: #333 url("images/back.gif") repeat;
+text-align: center;
+font: normal 11px/18px verdana, arial, tahoma, sans-serif;
+color: #333;
+padding-top: 40px;
+}
+
+a {
+color: #666;
+text-decoration: none;
+}
+
+a:visited {
+text-decoration: underline;
+}
+
+a:hover {
+color: #ccc;
+}
+
+#header {
+width: 580px;
+height: 210px;
+background: #000 url("images/header.jpg") no-repeat;
+background-position: top right;
+}
+
+#wrapper {
+width: 580px;
+background: #fff url("images/sidebar.gif") repeat-y;
+background-position: 0 0;
+border: solid 10px #fff;
+margin: 0 auto;
+text-align: left;
+}
+
+h1 {
+width: 140px;
+height: 30px;
+background-color: #333;
+margin: 1px 1px 1px 0;
+float: left;
+font: bold 16px/30px arial, verdana, tahoma, sans-serif;
+padding-left: 10px;
+color: #fff;
+cursor: default;
+}
+
+h1:first-letter {
+color: #f00;
+text-decoration: underline;
+}
+
+h2 {
+width: 419px;
+height: 30px;
+background-color: #333;
+float: left;
+font: bold 16px/30px arial, verdana, tahoma, sans-serif;
+padding-left: 10px;
+color: #fff;
+margin-top: 1px;
+cursor: default;
+}
+
+#nav {
+list-style: none;
+z-index: 2;
+border-right: 1px solid #fff;
+height: 210px;
+width: 150px;
+}
+
+#nav li a {
+color: #fff;
+font: normal 11px/24px verdana, arial, tahoma, sans-serif;
+display: block;
+width: 140px;
+height: 24px;
+background-color: #000;
+border-bottom: 1px solid #fff;
+padding-left: 10px;
+text-decoration: none;
+}
+
+#nav li a:hover {
+background-color: #333;
+}
+
+#current a {
+background-image: url("images/bullet.gif");
+background-repeat: no-repeat;
+background-position: 100% 50%;
+}
+
+#sidebar {
+width: 132px;
+background-color: #ccc;
+float: left;
+position: relative;
+left: -1px;
+margin-left: -147px;
+border-top: 1px solid #fff;
+font: normal 10px/18px verdana, arial, tahoma, sans-serif;
+padding: 8px;
+}
+
+img {
+border: none;
+}
+
+a img {
+display: block;
+margin-bottom: 20px;
+border: 1px solid #fff;
+}
+
+a:hover img {
+border-color: #f00;
+}
+
+#content {
+float: left;
+width: 400px;
+margin: 10px 0 0 10px;
+}
+
+p {
+margin-bottom: 20px;
+}
+
+p:first-line {
+font-weight: bold;
+}
+
+#footer {
+clear: both;
+width: 400px;
+margin-left: 163px;
+}
