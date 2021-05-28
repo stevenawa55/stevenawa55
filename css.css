@@ -6,7 +6,7 @@ padding: 0;
 body {
 background: #333 url("images/back.gif") repeat;
 text-align: center;
-font: normal 11px/18px verdana, arial, tahoma, sans-serif;
+font: normal 13px/21px verdana, arial, tahoma, sans-serif;
 color: #333;
 padding-top: 40px;
 }
@@ -42,7 +42,7 @@ text-align: left;
 
 h1 {
 width: 140px;
-height: 30px;
+height: 34px;
 background-color: #333;
 margin: 1px 1px 1px 0;
 float: left;
@@ -118,7 +118,7 @@ border: none;
 
 a img {
 display: block;
-margin-bottom: 380px;
+margin-bottom: 500px;
 border: 1px solid #fff;
 }
 
