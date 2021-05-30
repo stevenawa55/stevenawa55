@@ -45,7 +45,7 @@ text-align: left;
 
 h1 {
 width: 140px;
-height: 34px;
+height: 30px;
 background-color: #333;
 margin: 1px 1px 1px 0;
 float: left;
@@ -94,6 +94,7 @@ background-color: #000;
 border-bottom: 1px solid #fff;
 padding-left: 10px;
 text-decoration: none;
+/* Tabs section border */
 }
 
 #nav li a:hover {
