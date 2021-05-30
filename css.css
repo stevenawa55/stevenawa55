@@ -61,10 +61,12 @@ text-decoration: underline;
 }
 
 h2 {
-width: 419px;
+width: 990px;
+/* Home, NawaGuestHouse, black line */
 height: 30px;
 background-color: #333;
-float: left;
+/* Home, NawaGuestHouse, black line, center */
+float: center;
 font: bold 18px/30px arial, verdana, tahoma, sans-serif;
 padding-left: 10px;
 color: #fff;
@@ -76,9 +78,10 @@ cursor: default;
 list-style: none;
 z-index: 2;
 border-right: 1px solid #fff;
-height: 210px;
+/* center height link border */
+height: 198px;
+/* center width link border */
 width: 150px;
-<!-- center border -->
 }
 
 #nav li a {
