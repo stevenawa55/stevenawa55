@@ -28,7 +28,7 @@ color: #ccc;
 width: 580px;
 height: 210px;
 background: #000 url("images/header.jpg") no-repeat;
-background-position: top right;
+background-position: top center;
 }
 
 #wrapper {
