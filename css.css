@@ -25,14 +25,17 @@ color: #ccc;
 }
 
 #header {
-width: 580px;
-height: 210px;
+/* header.jpg weight */
+width: 1000px;
+/* brower height */
+height: 350px;
 background: #000 url("images/header.jpg") no-repeat;
 background-position: top center;
 }
 
 #wrapper {
-width: 580px;
+/* inside border weight */
+width: 1000px;
 background: #fff url("images/sidebar.gif") repeat-y;
 background-position: 0 0;
 border: solid 16px #fff;
