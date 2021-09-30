@@ -197,5 +197,5 @@ font-weight: bold;
 #footer {
 clear: both;
 width: 400px;
-margin-left: 163px;
+margin-left: 163px; /* footer move left */
 }
