@@ -187,7 +187,7 @@ border-color: #f00;
 float: left;
 width: 800px;
 margin: 40px 0 0 10px;
-margin-bottom: 4px; /* footer move down */
+margin-bottom: 15px; /* footer move down */
 font-size: 20px;
 white-space: pre;
 }
