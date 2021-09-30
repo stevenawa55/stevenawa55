@@ -196,6 +196,12 @@ font-weight: bold;
 
 #footer {
 clear: both;
-width: 400px;
+width: 500px;
+/* margin-top
+   margin-right
+   margin-bottom
+   margin-left */
 margin-left: 163px; /* footer move left */
+margin-bottom: -4px; /* footer move down */
+font-size: 13px;
 }
