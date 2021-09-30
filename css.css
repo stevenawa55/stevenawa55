@@ -21,7 +21,7 @@ text-decoration: underline;
 }
 
 a:hover {
-color: #ccc;
+color: #f00;
 }
 
 #header {
@@ -43,11 +43,6 @@ margin: 0 auto;
 text-align: left;
 }
 
-#content{
-font-size: 20px;
-white-space: pre;
-}
-
 h1 {
 width: 140px;
 height: 30px;
@@ -61,7 +56,8 @@ cursor: default;
 }
 
 h1:first-letter {
-color: #f00;
+/* color: #ccc; grey */
+color: #f00;  
 text-decoration: underline;
 }
 
@@ -120,6 +116,7 @@ white-space: pre-line;
 .prewrap { 
 white-space: prewrap; 
 } 
+
 h1.main { 
 text-indent: 40px; 
 font-size: 25px; 
@@ -150,6 +147,8 @@ text-decoration: none;
 
 #nav li a:hover {
 background-color: #333;
+/* nav will hover red in color */
+color: #f00;
 }
 
 #current a {
@@ -186,8 +185,10 @@ border-color: #f00;
 
 #content {
 float: left;
-width: 400px;
+width: 800px;
 margin: 40px 0 0 10px;
+font-size: 20px;
+white-space: pre;
 }
 
 p {
