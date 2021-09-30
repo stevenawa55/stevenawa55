@@ -83,6 +83,44 @@ cursor: default;
     font-size: 19px;
 }
 
+table {
+/* display: none */ /* this will take out the whole table */
+border:none;
+}
+
+table-cell {
+display: none;
+}
+
+table-column {
+display: none;
+}
+
+/* table, table-cell, table-column */
+
+.main { 
+text-indent: 60px; 
+font-size: 19px; 
+} 
+
+.pre {
+float: left;
+width: 400px;
+margin: 40px 0 0 10px;
+white-space: pre; 
+}
+
+.pre-line { 
+white-space: pre-line; 
+} 
+.prewrap { 
+white-space: prewrap; 
+} 
+h1.main { 
+text-indent: 40px; 
+font-size: 25px; 
+}
+
 #nav {
 list-style: none;
 z-index: 2;
