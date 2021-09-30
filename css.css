@@ -80,7 +80,11 @@ cursor: default;
 }
 
 .large {
-    font-size: 19px;
+font-size: 19px;
+}
+
+.empty {
+font-size: 17px;
 }
 
 table {
