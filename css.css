@@ -6,7 +6,7 @@ padding: 0;
 body {
 background: #333 url("images/back.gif") repeat;
 text-align: center;
-font: normal 13px/21px verdana, arial, tahoma, sans-serif;
+font: normal 11px/18px verdana, arial, tahoma, sans-serif;
 color: #333;
 padding-top: 40px;
 }
@@ -28,7 +28,7 @@ color: #f00;
 /* header.jpg weight */
 width: 1000px;
 /* brower height */
-height: 350px;
+height: 350px; /* Nawa guest house header box element  */
 background: #000 url("images/header.jpg") no-repeat;
 background-position: top center;
 }
@@ -122,6 +122,7 @@ text-indent: 40px;
 font-size: 25px; 
 }
 
+
 #nav {
 list-style: none;
 z-index: 2;
@@ -137,7 +138,7 @@ color: #fff;
 font: normal 17px/29px verdana, arial, tahoma, sans-serif;
 display: block;
 width: 140px;
-height: 32px;
+height: 32px; /* link box element inc, dec height */
 background-color: #000;
 border-bottom: 1px solid #fff;
 padding-left: 10px;
@@ -158,15 +159,15 @@ background-position: 100% 50%;
 }
 
 #sidebar {
-width: 132px;
+width: 132px; /* sidebar inc, dec right */
 background-color: #ccc;
 float: left;
 position: relative;
-left: -3px;
-margin-left: -147px;
+left: -4px;
+margin-left: -147px; /* sidebar inc, dec left */
 border-top: 1px solid #fff;
 font: normal 10px/18px verdana, arial, tahoma, sans-serif;
-padding: 8px;
+padding: 8px; /* sidebar inc, dec both-ends */
 }
 
 img {
@@ -175,7 +176,8 @@ border: none;
 
 a img {
 display: block;
-margin-bottom: 500px;
+/* this will increase the page block down, increase-down */ 
+margin-bottom: 620px; /* sidebar Dec, Inc bottom */
 border: 1px solid #fff;
 }
 
@@ -187,8 +189,11 @@ border-color: #f00;
 float: left;
 width: 800px;
 margin: 40px 0 0 10px;
-margin-bottom: 15px; /* footer move down */
-font-size: 90px;
+font-size: 20px;
+}
+
+.comic-table {
+/* white-space pre set the text in the content as typed*/
 white-space: pre;
 }
 
