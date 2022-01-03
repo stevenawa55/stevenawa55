@@ -192,11 +192,13 @@ float: left;
 width: 800px;
 /* margin: 30px 0 0 10px; is the correct text content alignment */
 margin: 30px 0 0 10px;
+/* pre creates space and text can be shifted to the front */
+white-space: pre;
 font-size: 20px;
 }
 
 .comic-table {
-/* white-space pre set the text in the content as typed*/
+/* pre creates space and text can be shifted to the front */
 white-space: pre;
 }
 
